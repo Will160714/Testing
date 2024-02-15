@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Valentines</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Would you be my Valentines?</h1>
+        <div class="button-container">
+            <form method="post" action="/yes">
+                <button class = "custom-button" type="submit">Yes</button>
+            </form>
+            <form method="post" action="/no">
+                <button class = "custom-button" type="submit">{{answer}}</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
