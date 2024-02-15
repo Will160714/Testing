@@ -1,0 +1,30 @@
+body {
+    height: 500px 500px;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(blurred-valentine-s-day-wallpaper_23-2148819570.avif);
+    background-size: cover; 
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; Prevent background image from repeating
+}
+
+h1, h2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 30%;
+}
+
+.container {
+    width: 100%; /* Ensure the container spans the entire width */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
